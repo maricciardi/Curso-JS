@@ -27,8 +27,21 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.294);
 }
 
+select#valores {
+    width: 150px;;
+}
+
 div > select {
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#res {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div > p {
     margin-bottom: 10px;
 }
 
