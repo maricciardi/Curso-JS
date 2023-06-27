@@ -12,6 +12,10 @@ var ingredientes = [
         nome: 'Batata palha',
         valor: 2,
     }
+    {
+        nome: 'abobora',
+        valor: 2,
+    }
 ];
 
 export default ingredientes;
