@@ -1,5 +1,5 @@
 function fcapitalizar(colecao, attr) {
-    if (colecao, attr > 0){
+    if (colecao.length > 0){
         if (typeof colecao[0] == 'object' && attr) {
             colecao.map(item => item[attr] = item[attr].charAt(0).toUpperCase() + item[attr].slice(1));
         } else {
@@ -11,11 +11,12 @@ function fcapitalizar(colecao, attr) {
 
 function fcaixaAlta(colecao, attr) {
     if (colecao.length > 0){
-        if (typeof colecao[0] == 'object' && attr){
+        if (typeof colecao[0] == 'object' && attr) {
             colecao.map(item => item[attr] = item[attr].toUpperCase());
         } else {
             colecao.map(item => item = item.toUpperCase());
         }
+        return colecao;
     }
 }
 
